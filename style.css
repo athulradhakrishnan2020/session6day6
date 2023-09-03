@@ -1,0 +1,158 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+header{
+    padding: 20px 0px;
+}
+.header_logo{
+    width: 200px;
+    height: auto;
+}
+.container{
+    width: 1350px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.header_nav{
+    width: 750px;
+    font-size: medium;
+    margin-left: 865px;
+    margin-top: -25px
+
+
+}
+.header_nav a{
+    text-decoration: none;
+    color: rgb(37, 87, 130);
+    margin: 0px 15px;
+}
+.header_btn{
+    margin-left: 1000px;
+    width: 450px;
+}
+.header_btn a{
+    column-span: all;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size : 18px;
+    padding : 10px 15px;   
+}
+.header_btn_one{
+    background-color: none;
+    color: #000000;
+    
+}
+.header_btn_one1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(6, 157, 61);
+    border-radius: 90px;
+    height: 10px;
+}
+.img2{
+    display:block;
+    margin: 40px;
+    margin-top: 50px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+}
+.img3{
+    position: absolute;
+    top: 240px;
+    
+    left: 814px;
+    height: 80px;
+    z-index: 99;
+}
+section{
+    width: 2000px;
+    height: 2000px;
+    margin: auto;
+}
+
+.img4{
+    position: absolute;
+    top: 432px;
+    right: -74px;
+    left: 754px;
+    height: 270px;
+}
+
+.img8{
+    position: absolute;
+    top: 673px;
+    right: -68px;
+    left: 749px;
+    height: 52px;
+    z-index: 105;
+
+}
+
+.img6{
+    position: absolute;
+    top: 230px;
+    right: -74px;
+    left: 754px;
+    height: 40px;
+    z-index: 99;
+
+}
+
+.img5{
+    position: absolute;
+    top: 330px;
+    right: -74px;
+    left: 754px;
+    height: 60px;
+    z-index: 99;
+
+}
+
+.img7{
+    position: absolute;
+    top: 187px;
+    right: -97px;
+    left: 490px;
+    height: 309px;
+    z-index: 100;
+}
+
+.heading{
+    position: absolute;
+    top: 459px;
+    left: 588px;
+    height: 50px;
+    z-index: 102;
+    color: rgb(50, 50, 50);
+    font-size: 46px;
+    font-weight: bolder
+}
+
+.desc{
+    position: absolute;
+    top: 570px;
+    left: 411px;
+    height: 51px;
+    z-index: 103;
+    color: rgb(63, 63, 63);
+    font-size: 24px;
+    font-weight: bolder
+}
+.cp{
+    border-radius: 5px;
+    background-color: rgb(68 117 223);
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+    position: absolute;
+    top: 622px;
+    left: 671px;
+    height: 51px;
+    z-index: 103;
+    color: rgb(255 245 245);
+    font-size: 28px;
+    font-weight: bolder
+}
